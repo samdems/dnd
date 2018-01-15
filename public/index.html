@@ -1,0 +1,31 @@
+
+<html>
+<head>
+  <title>A Leaflet map!</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+  <style>
+    #map{ height: 100% }
+  </style>
+</head>
+<body>
+  <a href='/wiki'>wiki</a>
+  <div id="map"></div>
+
+  <script>
+
+  // initialize the map
+  var map = L.map('map').setView([0.05, 0], 15);
+
+  // load a tile layer
+  L.tileLayer('/img/{x}-{y}.jpg',
+    {
+      attribution: '',
+      maxNativeZoom: 15,
+      minNativeZoom: 15,
+      tileSize: L.point(960, 768)
+    }).addTo(map);
+
+  </script>
+</body>
+</html>
