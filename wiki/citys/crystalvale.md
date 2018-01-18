@@ -12,7 +12,7 @@ grand some of the place are hard to get to with out magic
 ## Demographics
 if you cant do magic you are consender a lesser baing
 
-##Economy
+## Economy
 magic is the main exprot
 so magic scrolls items and potions are made and invented hear
 
@@ -34,9 +34,9 @@ police mostly not corrupted but will treat non magic with out respect
 there is a big gray marker for sleves like slave fights
 
 
-##Religion:
+## Religion:
 there is no gods and say other ways will get you in truble
 
-##Culture
+## Culture
 
 work hard
